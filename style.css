@@ -1,38 +1,64 @@
 * {
-  margin: 0px;
-  padding: 0px;
+    margin: 0px;
+    padding: 0px;
 }
+
+body {
+    background-color: rgb(37, 37, 37);
+}
+
 .image-container {
-  position: relative;
+    position: relative;
 }
 
 .bimage {
-  width: 100%;
+    width: 100%;
 }
 
 .content-conatiner {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  background-color: rgba(75, 75, 75, 0.5);
-  width: 100%;
-  height: 100%;
-  text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(75, 75, 75, 0.5);
+    width: 100%;
+    height: 99%;
+    text-align: center;
 }
 
 .logo {
-  position: absolute;
-  top: 12px;
-  left: 16px;
-  width: 8%;
+    position: absolute;
+    top: 12px;
+    left: 16px;
+    width: 8%;
 }
 
 .center {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  font-size: 60px;
-  color: aliceblue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 60px;
+    color: aliceblue;
+}
+
+main {
+    margin-left: 30px;
+    color: white;
+}
+
+article {
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+
+.heading-holder {
+    font-size: 24px;
+    color: aliceblue;
+}
+
+p.text {
+    width: 40%;
+    margin-top: 15px;
+    font-size: 18px;
 }
