@@ -11,7 +11,7 @@ body {
 
 .bimage {
     min-height: 400px;
-    background-image: url("images/mountain.png");
+    background-image: url("images/test.jpg");
     position: relative;
     background-position: bottom;
     background-repeat: no-repeat;
