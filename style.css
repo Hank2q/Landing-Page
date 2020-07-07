@@ -154,7 +154,7 @@
         min-height: 30vh;
     }
     p.text {
-        font-size: 5vw;
+        font-size: 18px;
         line-height: 5vh;
     }
     .col1-s {
@@ -235,10 +235,15 @@ div.trans {
     top: 10px;
     left: 10px;
 }
-
+.phone {
+    float: right;
+    width: 5%;
+    color: #00a8f3;
+    transform: translate(-10px, 10px);
+}
 span.center {
     text-align: center;
-    font-size: 7.6vw;
+    font-size: 10vmin;
     color: white;
     position: absolute;
     top: 50%;
