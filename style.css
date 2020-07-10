@@ -10,8 +10,6 @@ body {
 }
 
 .bimage {
-    min-height: 400px;
-    background-image: url("images/test.jpg");
     position: relative;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -21,6 +19,7 @@ body {
 
 .content-container {
     position: absolute;
+    text-align: center;
     top: 0;
     left: 0;
 }
@@ -38,10 +37,14 @@ div.trans {
     top: 10px;
     left: 10px;
 }
-
-span.center {
-    text-align: center;
-    font-size: 60px;
+.phone {
+    float: right;
+    width: 5%;
+    color: #00a8f3;
+    transform: translate(-10px, 10px);
+}
+.center {
+    font-size: 12vmin;
     color: white;
     position: absolute;
     top: 50%;
@@ -49,7 +52,8 @@ span.center {
     transform: translate(-50%, -50%);
 }
 div.article-container {
-    margin-top: 50px;
+    margin: 50px auto;
+    width: 50%;
     text-align: center;
     color: white;
 }
@@ -64,10 +68,37 @@ article {
 }
 
 p.text {
-    width: 40%;
     margin-top: 15px;
-    font-size: 18px;
+    width: 100%;
+    font-size: 1.2em;
     margin-left: auto;
     margin-right: auto;
     color: #5ac3f3;
+}
+
+@media (min-width: 1200px) {
+    .bimage {
+        background-image: url("images/test.jpg");
+        min-height: 400px;
+    }
+}
+
+@media (min-width: 950px) and (max-width: 1199px) {
+    .bimage {
+        background-image: url("images/test.jpg");
+        min-height: 40vh;
+    }
+}
+
+@media (max-width: 949px) {
+    .bimage {
+        background-image: url("images/mountain.png");
+        min-height: 30vh;
+    }
+    span.center {
+        font-size: 10vmin;
+    }
+    div.article-container {
+        width: 90%;
+    }
 }
